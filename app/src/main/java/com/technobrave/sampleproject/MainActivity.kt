@@ -11,5 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         editText?.findViewById<EditText>(R.id.editText)
 
+        //First Commit Add in Sample
+
     }
 }
