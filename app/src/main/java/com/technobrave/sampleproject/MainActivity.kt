@@ -3,6 +3,7 @@ package com.technobrave.sampleproject
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.EditText
+import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
     private var editText:EditText?=null
@@ -11,7 +12,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         editText?.findViewById<EditText>(R.id.editText)
 
-        //First Commit Add in Sample
+        //Add in Sample1 Project
+
+       editText?.setOnClickListener {
+           Toast.makeText(this,"Click",Toast.LENGTH_LONG).show()
+       }
+
 
     }
 }
